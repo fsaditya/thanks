@@ -3,6 +3,8 @@ import "./Footer.css";
 import { Fade } from "react-reveal";
 import Foto from "./chat.png";
 import Zoom from "./zoom.png";
+import Zoomm from "./zoomm.png";
+import Zoommm from "./zoommm.png";
 import Typewriter from "typewriter-effect";
 import { greeting } from "../../portfolio.js";
 /* eslint-disable jsx-a11y/accessible-emoji */
@@ -19,6 +21,18 @@ export default function Chat(props) {
       <Fade>
         <p className="footer-text" style={{ color: props.theme.text }}>
           <img src={Zoom} alt="First" />
+        </p>
+        {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
+      </Fade>
+      <Fade>
+        <p className="footer-text" style={{ color: props.theme.text }}>
+          <img src={Zoomm} alt="First" />
+        </p>
+        {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
+      </Fade>
+      <Fade>
+        <p className="footer-text" style={{ color: props.theme.text }}>
+          <img src={Zoommm} alt="First" />
         </p>
         {/* <ToggleSwitch theme={props.theme} onToggle={props.onToggle}/> */}
       </Fade>
