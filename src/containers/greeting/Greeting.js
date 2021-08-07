@@ -35,7 +35,7 @@ export default function Greeting(props) {
                       .typeString("Dosen Keren")
                       .pauseFor(200)
                       .deleteAll()
-                      .typeString("Bismillah 50k Lagi")
+                      .typeString("Bismillah Aktivitas")
                       .pauseFor(200)
                       .deleteAll()
                       .typeString("Hehe")
